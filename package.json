@@ -1,0 +1,24 @@
+{
+  "name": "redpacket",
+  "version": "1.0.0",
+  "description": "A web app that see how many redpacket you can get this year",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch public/scss:public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/felixfong227/redpacket-thegame.git"
+  },
+  "keywords": [
+    "chines-new-year",
+    "new-year",
+    "redpacket"
+  ],
+  "author": "@felixfong227",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixfong227/redpacket-thegame/issues"
+  },
+  "homepage": "https://github.com/felixfong227/redpacket-thegame#readme"
+}

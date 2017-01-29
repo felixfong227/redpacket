@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans+Condensed");
+#redpacket {
+  background: url("../../../../src/svg/Redpacket.svg") no-repeat center;
+  background-size: contain;
+  width: 20em;
+  height: 25em; }
+  #redpacket.animation {
+    -webkit-animation: animate 1.5s ease;
+    -o-animation: animate 1.5s ease;
+    animation: animate 1.5s ease; }
+@keyframes animate {
+  10% {
+    transform: scale(0.7); }
+  50% {
+    transform: rotate(-10deg); }
+  100% {
+    transform: rotate(10deg); } }
+* {
+  padding: 0em;
+  margin: 0em; }
+
+html {
+  background: #FA8572;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+/*# sourceMappingURL=index.css.map */
